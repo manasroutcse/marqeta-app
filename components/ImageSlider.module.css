@@ -1,6 +1,6 @@
 .mainSliderDiv{
 width:100%;
-border:7px solid green;
+/* border:7px solid green; */
 }
 .sliderContainer {
     width: 50%;
@@ -10,7 +10,7 @@ border:7px solid green;
     height:400px;
     /* float: right; */
     margin: auto;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .sliderPageButton p{
 position: relative;
@@ -26,7 +26,7 @@ left:120px;
   .sliderPageButton{
   
     width: 50%;
-    border: 1px solid rgb(68, 0, 255);
+    /* border: 1px solid rgb(68, 0, 255); */
     float: left;
     height:400px;
   }
