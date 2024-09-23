@@ -1,0 +1,94 @@
+/* styles/MegaMenu.css */
+.megaMenu {
+    background-color: #f7f3f3;
+    padding: 1rem;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu > li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .menu a:hover {
+    color: #bbb;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%; /* Position below the menu item */
+    left: 0;
+    display: none; /* Hide the dropdown by default */
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    z-index: 1000; /* Ensure the dropdown is above other content */
+  }
+  
+  .menu > li:hover .dropdown {
+    display: block; /* Show the dropdown on hover */
+  }
+  
+  .dropdown-content {
+    display: flex;
+  }
+  
+  .category {
+    margin-right: 20px; /* Spacing between categories */
+  }
+  
+  .category h3 {
+    color: #333;
+  }
+  
+  .category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .category a:hover {
+    text-decoration: underline;
+  }
+  
+  .contactus{
+    position: relative;
+    top:15px;
+    left:70px;
+    width:150px;
+    height:40px;
+    background-color: #1cc283;
+    color:#100794;
+    /* font-size: larger; */
+    font-weight: bold;
+   
+    border-radius: 10px;
+    border: 1px solid red;
+
+    }
+    .contactus:hover{
+      background-color: #54e6ae;
+    }
+    .menuItem:hover{
+      text-decoration: underline;
+      border:6px solid rgb(231, 29, 86);
+    }
+   .menuItem{
+    border:1px solid blue;
+   }
